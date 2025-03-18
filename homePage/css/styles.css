@@ -34,6 +34,9 @@ html {
   h3 {width: 359px; height: 47;top: 281px; left: 759px; font-weight: 700; font-size: 40px; line-height: 46.88; letter: 0%;}
   h4 {width: 215px; height: 28;top: 352px; left: 759px; font-weight: 700; font-size: 24px; line-height: 28.13; letter: 0%;}
   h5 {width: 289px; height: 28;top: 404px; left: 759px; font-weight: 500; font-size: 24px; line-height: 28.13; letter: 0%;}*/
+.hidden {
+  display: none;
+}
 p {
   font-family: Roboto;
   font-weight: 500;
@@ -199,6 +202,8 @@ h1 {
 /*RECENT PROYECTS */
 
 .recent-proyect {
+  font-size: 25px;
+  font-weight: 700;
   width: 90%;
   height: 50%;
   margin-bottom: 10%;
@@ -270,7 +275,7 @@ h3 {
   margin-top: 20px;
   margin-bottom: 20px;
 }
-.learn-more {
+.learnMore {
   font-size: 17px;
   border: none;
   color: #072ac8;
@@ -302,9 +307,16 @@ h3 {
   padding: 30px 55px;
   text-align: end;
 }
+#email{
+  padding: 30px 100px;
+  margin-right: 20px;
+}
 
 footer {
   width: 100%;
+}
+.footer-logo{
+  
 }
 .footer-homePage div {
   display: flex;

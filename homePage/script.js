@@ -8,7 +8,7 @@ async function getApiInfo() {
     return {
       name: brewery.name,
       phone: brewery.phone,
-      adress: brewery.adress,
+      address: '${brewery.address_1}, ${brewery.city}, ${brewery.state}',
     };
   });
   const projects = document.querySelector(".recent-proyect-articles");
@@ -16,9 +16,28 @@ async function getApiInfo() {
   projects.innerHTML = "";
 
   results.forEach((brewery) => {
-    projects.innerHTML +=
-      '<article class="recent-proyect-1"><h2 id="brewery-name">${brewery.name}</h2><p id="brewery-adress"></p><p id="brewery-phone">${brewery.name}</p></article>';
+    projects.innerHTML += '<article class="recent-proyect"> <h2 id="brewery-name"> ${brewery.name}</h2> <p id="brewery-address"> ${brewery.address} </p> <p id="brewery-phone"> ${brewery.phone}</p> </article> '
+    
   });
 }
 
 getApiInfo();
+
+//Qué quiero hacer
+function showP(){
+  const myP = document.querySelector("p.servicesP");
+
+  myP.forEach((p) => {
+    p.classList.toggle("hidden");
+  });
+    
+  /*if(myP.classList.contains("hidden")){
+    myP.classList.remove("hidden")
+  }else{
+    myP.classList.add("hidden")
+  }*/
+}
+// Cuando lo quiero hacer 
+document.querySelectorAll(".learnMore").forEach((button) => {
+  button.addEventListener("click", showP);
+})

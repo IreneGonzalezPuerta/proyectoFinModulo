@@ -19,12 +19,14 @@
                     <div class="navbar-menu">
                         <ul>
                             <li><a href="homePage.html"><p>Home</p></a></li>
-                            <li><a href="proyectPage.html"><p>Proyects</p></a></li>
+                            <li><a href="../proyectPage/proyectPage.html"><p>Proyects</p></a></li>
                             <li><a href="#"><p>Services</p></a></li>
                         </ul>
                     </div>
                     <div class="navbar-button">
-                        <button type="contact"><p>Contact Us</p></button>
+                        <a href="../contactUsPage/contactUs.html">
+                            <button type="contact"><p>Contact Us</p></button>
+                        </a>
                     </div>
             </div>
         </nav>
@@ -68,12 +70,12 @@
         </div>
     </header>
     <div class="recent-proyect">
-        <div class="recent-proyect-title">Recent Proyects </div>
+        <div class="recent-proyect-title"> Recent Proyects </div>
         
             <div class="recent-proyect-articles">
-                <article class="recent-proyect-1"> 
+                <article class="recent-proyect"> 
                     <h2 id="brewery-name"></h2>
-                    <p id="brewery-adress"></p>
+                    <p id="brewery-address"></p>
                     <p id="brewery-phone"></p>
                 </article>
             </div>
@@ -100,21 +102,27 @@
                     <img src="css/icons/icon1.png" id="icon1">
                     <h3>User Interface Design</h3>
                     <p>Circle provides you with a stunning user interface design that is accessible for everyone</p>
-                    <button class="learn-more">Learn More </button>
+                    <button class="learnMore">Learn More </button>
+                    <p class="servicesP hidden">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat consectetur voluptatem quas vero veniam eius quam repudiandae nihil tempora facilis ratione numquam pariatur atque impedit fugiat laudantium hic, nemo illum.</p>
+
 
                 </div>
                 <div class="service-2">
                     <img src="css/icons/icon2.png" id="icon2">
                     <h3>User Expirience Design </h3>
                     <p>Circle provides you with a stunning user interface design that is accessible for everyone</p>
-                    <button class="learn-more">Learn More </button>
+                    <button class="learnMore">Learn More </button>
+                    <p class="servicesP hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias dolor fugit veniam sit dicta eius, fuga soluta perferendis reprehenderit autem iure a beatae enim dolore tenetur expedita officiis, reiciendis omnis!</p>
 
                 </div>
                 <div class="service-3">
                     <img src="css/icons/icon3.png" id="icon3">
                     <h3>Application Development </h3>
                     <p>Circle provides you with a stunning user interface design that is accessible for everyone</p>
-                    <button class="learn-more">Learn More </button>
+                    <button  class="learnMore">Learn More</button>
+                    <p class="servicesP hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias dolor fugit veniam sit dicta eius, fuga soluta perferendis reprehenderit autem iure a beatae enim dolore tenetur expedita officiis, reiciendis omnis!</p>
+
+                    
 
                 </div>
 
@@ -126,6 +134,8 @@
             <h2>Do You Have Any Questions?</h2>
             <p>Let Us Help You!</p>
             <form>
+                <label for="email"></label>
+                <input id="email" placeholder="Enter your email...">
                 <button>Subscribe</button>
             </form>
 
@@ -134,7 +144,7 @@
     <footer class="footer-homePage">
         <div class="footer-container">
             <div class="footer-content">
-                <img alt="Logo" src="css/images/Logo.png" class="navbar-logo">
+                <img alt="Logo" src="css/images/Logo.png" class="footer-logo">
                 <p>2972 Weintmister Rd. Santa Ana,<br>
                     Ilinois 85486</p>
             </div>

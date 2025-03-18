@@ -1,0 +1,204 @@
+/* Variables */
+:root {
+    --primary-color: #072ac8;
+    --accent-color: #43d2ff;
+    --primary-hover-color: #a2d619;
+    --primary-tapped-color: #d1edff;
+    --neutral-dark-color: #292e47;
+    --neutral-ligth-color: #f2f4fc;
+    --neutral-ligthblue-color: #ecf7ff;
+    --secondary-color: #ffc600;
+    --text: #514d67;
+  }
+  /* Reset */
+  * {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /*Body*/
+  body {
+    background-color: antiquewhite;
+  }
+  /* Typography */
+  
+  html {
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+  /*
+    h1 { width: 537px; height: 70;top: 104px; left: 758px; border: 1px; font-weight: 700; font-size: 60px; line-height: ; letter: 0%; border:1px #000000 t; shadow: 0 4 4 0 #000000 2..; }
+    h2 {width: 448px; height: 59;top: 198px; left: 759px; font-weight: 700; font-size: 50px; line-height: 58.59; letter: 0%;}
+    h3 {width: 359px; height: 47;top: 281px; left: 759px; font-weight: 700; font-size: 40px; line-height: 46.88; letter: 0%;}
+    h4 {width: 215px; height: 28;top: 352px; left: 759px; font-weight: 700; font-size: 24px; line-height: 28.13; letter: 0%;}
+    h5 {width: 289px; height: 28;top: 404px; left: 759px; font-weight: 500; font-size: 24px; line-height: 28.13; letter: 0%;}*/
+  .hidden {
+    display: none;
+  }
+  p {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 22.1px;
+    letter-spacing: 0%;
+    margin-left: 10%;
+  }
+  .text-headline-regular {
+    width: 188px;
+    height: 26;
+    top: 510px;
+    left: 759px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 25.5;
+    letter: 0%;
+  }
+  .text-headline-medium {
+    width: 194px;
+    height: 22;
+    top: 554px;
+    left: 759px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 22.1;
+    letter: 0%;
+  }
+  
+  /* Colors */
+  .text {
+    color: var(--text);
+  }
+  
+  /* Layout */
+  
+  /* Spacing */
+  
+  /* Navbar */
+  
+  nav {
+    width: 100%;
+  }
+  .navbar-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5%;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  .navbar-title {
+    color: var(--primary-color);
+  }
+  .navbar-menu {
+  }
+  .navbar-menu ul li {
+    padding-right: 20%;
+    color: var(--text);
+  }
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+  }
+  a {
+    color: var(--text);
+  }
+  .navbar-button button {
+    color: white;
+    background-color: var(--primary-color);
+    border: none;
+    padding: 3px 25px;
+  }
+/* OTHERS PROYECTS */
+
+.othersProyects-container {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 70%;
+  }
+  .otherProyects {
+    display: flex;
+    flex-direction: row;
+  }
+  .otherProyect-1,
+  .otherProyect-2,
+  .otherProyect-3 {
+    margin-right: 5%;
+    background-color: white;
+    padding: 50px;
+    font-stretch: expanded;
+  }
+  #icon-1,
+  #icon-2,
+  #icon-3 {
+    margin-bottom: 30px;
+    width: 15%;
+  }
+  .otherProyects {
+    margin-bottom: 40px;
+  }
+  h3 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .learn-more {
+    font-size: 17px;
+    border: none;
+    color: #072ac8;
+    margin-top: 20px;
+  }
+  .cta-section {
+    background-color: #ffc600;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    padding: 200px;
+    margin-bottom: 40px;
+  }
+  .cta-container h2 {
+    font-size: 300%;
+    color: #292e47;
+    margin-bottom: 20px;
+  }
+  .cta-container p {
+    color: #292e47;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .cta-container button {
+    font-size: 15px;
+    color: white;
+    background-color: #072ac8;
+    border: none;
+    padding: 30px 55px;
+    text-align: end;
+  }
+  #email{
+    padding: 30px 100px;
+    margin-right: 10px;
+  }
+  
+
+  footer {
+    width: 100%;
+    margin-top: 50px;
+  }
+  .footer-logo{
+    
+  }
+  .footer-homePage div {
+    display: flex;
+    flex-direction: row;
+  }
+  .footer-links {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .footer-links a {
+    margin-left: 20%;
+  }
