@@ -115,21 +115,39 @@
     padding: 3px 25px;
   }
 /*FORM*/
-form{
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    width: 85%;
+#formTitle{
+  width: 90%;
+
+}
+
+#formContainer{
+  width: 90%;
+  margin-top: 5%;
+  margin-bottom:5%;
+
+}
+
+
+ form{
+    
 }
 form h2 {
     text-align: left;
 }
 .input-group{
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 50px;
-    text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  width: 85%;
+    
 }
+#fullName{
+ 
+}
+.phone-email{
+  display: flex;
+  flex-direction: row;
+}  
 label{
     text-align: left;
     padding: 20px;
@@ -142,16 +160,28 @@ input, textarea{
     background-color:aliceblue;
     color: #292e47;
 }
+.emailDiv{
+  display: flex;
+  flex-direction: column;
+  margin-right: 25px;
+}
+
+.phoneDiv{
+  display: flex;
+  flex-direction: column;
+}
 #submitButton{
     width: 90%;
     background-color: #072ac8;
     color: white;
     margin:30px;
-    padding: 20px 100px;
+    padding: 20px 100px; 
 }
+
 /*FOOTER*/
   footer {
     width: 100%;
+    margin-bottom: 25px;
   }
   .footer-logo{
     

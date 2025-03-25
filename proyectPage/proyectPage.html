@@ -19,7 +19,7 @@
                     <ul>
                         <li><a href="../homePage/homePage.html"><p>Home</p></a></li>
                         <li><a href="../proyectPage/proyectPage.html"><p>Proyects</p></a></li>
-                        <li><a href="#"><p>Services</p></a></li>
+                        <li><a href="../homePage/homePage.html"><p>Services</p></a></li>
                     </ul>
                 </div>
                 <div class="navbar-button">
@@ -29,19 +29,21 @@
                 </div>
         </div>
     </nav>
-    <div class="simplify-article">
+    <div id="simplify-article">
 
     </div>
     <div class="othersProyects-container">
-        <h2 class="others-proyects">Our services </h2>
+        <h2 class="others-proyects">Others Projects </h2>
         <div class="otherProyects">
             
             <div class="otherProyect-1">
                 <img src="css/icons/icon1.png" id="icon1">
                 <h3>ORBIT</h3>
                 <p>UI Design</p>
-                <button id="button1" class="learn-more">Learn More </button>
-                <p class="servicesP hidden">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat consectetur voluptatem quas vero veniam eius quam repudiandae nihil tempora facilis ratione numquam pariatur atque impedit fugiat laudantium hic, nemo illum.</p>
+                <button class="toggle-btn" onclick="toggleText('texto1')">Learn More</button>
+                <div id="texto1" class="toggle-text">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit pariatur provident totam quia, corporis eligendi deserunt, odio dicta aliquam consectetur cumque veritatis voluptatibus dolores non architecto voluptates sapiente adipisci laborum?</p>
+                  </div>
 
 
             </div>
@@ -49,16 +51,20 @@
                 <img src="css/icons/icon2.png" id="icon2">
                 <h3>Purify </h3>
                 <p>UI/UX Design</p>
-                <button id="button2" class="learn-more">Learn More </button>
-                <p class="servicesP hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias dolor fugit veniam sit dicta eius, fuga soluta perferendis reprehenderit autem iure a beatae enim dolore tenetur expedita officiis, reiciendis omnis!</p>
+                <button class="toggle-btn" onclick="toggleText('texto2')">Learn More</button>
+                <div id="texto2" class="toggle-text">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste cum illum distinctio, vitae itaque facilis alias ab nostrum nesciunt placeat, numquam quae minus minima sequi officiis quos earum, neque vel?.</p>
+                  </div>
 
             </div>
             <div class="otherProyect-3">
                 <img src="css/icons/icon3.png" id="icon3">
                 <h3>Crypto Pie </h3>
                 <p>App Development</p>
-                <button id="button3" class="learn-more">Learn More </button>
-                <p class="servicesP hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias dolor fugit veniam sit dicta eius, fuga soluta perferendis reprehenderit autem iure a beatae enim dolore tenetur expedita officiis, reiciendis omnis!</p>
+                <button class="toggle-btn" onclick="toggleText('texto3')">Learn More</button>
+                <div id="texto3" class="toggle-text">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste cum illum distinctio, vitae itaque facilis alias ab nostrum nesciunt placeat, numquam quae minus minima sequi officiis quos earum, neque vel?.</p>
+                  </div>
 
                 
 
@@ -97,5 +103,6 @@
             </div>
         </div>
     </footer>
+    <script src="./proyect.js"></script>
 </body>
 </html>

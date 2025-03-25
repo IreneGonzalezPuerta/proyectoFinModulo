@@ -20,7 +20,7 @@
                         <ul>
                             <li><a href="homePage.html"><p>Home</p></a></li>
                             <li><a href="../proyectPage/proyectPage.html"><p>Proyects</p></a></li>
-                            <li><a href="#"><p>Services</p></a></li>
+                            <li><a href="#service-section"><p>Services</p></a></li>
                         </ul>
                     </div>
                     <div class="navbar-button">
@@ -73,11 +73,7 @@
         <div class="recent-proyect-title"> Recent Proyects </div>
         
             <div class="recent-proyect-articles">
-                <article class="recent-proyect"> 
-                    <h2 id="brewery-name"></h2>
-                    <p id="brewery-address"></p>
-                    <p id="brewery-phone"></p>
-                </article>
+            
             </div>
            
         
@@ -93,7 +89,7 @@
             </div>
           
     </div>
-    <div class="service-section">
+    <div id="service-section">
         <div class="service-container">
             <h2 class="our-services">Our services </h2>
             <div class="services">
@@ -102,8 +98,10 @@
                     <img src="css/icons/icon1.png" id="icon1">
                     <h3>User Interface Design</h3>
                     <p>Circle provides you with a stunning user interface design that is accessible for everyone</p>
-                    <button class="learnMore">Learn More </button>
-                    <p class="servicesP hidden">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat consectetur voluptatem quas vero veniam eius quam repudiandae nihil tempora facilis ratione numquam pariatur atque impedit fugiat laudantium hic, nemo illum.</p>
+                    <button class="toggle-btn" onclick="toggleText('texto1')">Learn More</button>
+                    <div id="texto1" class="toggle-text">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit pariatur provident totam quia, corporis eligendi deserunt, odio dicta aliquam consectetur cumque veritatis voluptatibus dolores non architecto voluptates sapiente adipisci laborum?</p>
+                    </div>
 
 
                 </div>
@@ -111,16 +109,20 @@
                     <img src="css/icons/icon2.png" id="icon2">
                     <h3>User Expirience Design </h3>
                     <p>Circle provides you with a stunning user interface design that is accessible for everyone</p>
-                    <button class="learnMore">Learn More </button>
-                    <p class="servicesP hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias dolor fugit veniam sit dicta eius, fuga soluta perferendis reprehenderit autem iure a beatae enim dolore tenetur expedita officiis, reiciendis omnis!</p>
+                    <button class="toggle-btn" onclick="toggleText('texto2')">Learn More</button>
+                    <div id="texto2" class="toggle-text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste cum illum distinctio, vitae itaque facilis alias ab nostrum nesciunt placeat, numquam quae minus minima sequi officiis quos earum, neque vel?.</p>
+                      </div>
 
                 </div>
                 <div class="service-3">
                     <img src="css/icons/icon3.png" id="icon3">
                     <h3>Application Development </h3>
                     <p>Circle provides you with a stunning user interface design that is accessible for everyone</p>
-                    <button  class="learnMore">Learn More</button>
-                    <p class="servicesP hidden">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias dolor fugit veniam sit dicta eius, fuga soluta perferendis reprehenderit autem iure a beatae enim dolore tenetur expedita officiis, reiciendis omnis!</p>
+                    <button class="toggle-btn" onclick="toggleText('texto3')">Learn More</button>
+                    <div id="texto3" class="toggle-text">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste cum illum distinctio, vitae itaque facilis alias ab nostrum nesciunt placeat, numquam quae minus minima sequi officiis quos earum, neque vel?.</p>
+                    </div>
 
                     
 
